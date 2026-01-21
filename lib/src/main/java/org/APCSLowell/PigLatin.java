@@ -43,7 +43,7 @@ public class PigLatin {
                     break;
                 }
             }
-            // If no real vowels and only 'y' found, treat as no vowels
+
             if (!hasRealVowel && (sWord.charAt(firstVowel) == 'y' || sWord.charAt(firstVowel) == 'Y')) {
                 return sWord + "ay";
             }
