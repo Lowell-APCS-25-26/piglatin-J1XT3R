@@ -32,8 +32,6 @@ public class PigLatin {
             return sWord.substring(2) + sWord.substring(0, 2) + "ay";
         }
         
-        // Special case: if the only "vowel" is 'y' and it's not at the beginning,
-        // treat the whole word as having no vowels
         if (firstVowel != -1) {
             boolean hasRealVowel = false;
             String realVowels = "AEIOUaeiou";
